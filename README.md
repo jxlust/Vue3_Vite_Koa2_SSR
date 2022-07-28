@@ -19,7 +19,6 @@ pnpm i -D eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-p
 pnpm i -D lint-staged husky commitizen commitlint-config-cz cz-conventional-changelog cz-customizable @commitlint/cli @commitlint/config-conventional
 
 ```
-
 依赖
 
 ```shell
