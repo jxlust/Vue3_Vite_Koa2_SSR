@@ -47,6 +47,6 @@ pnpm i -S @koa/router @vue/server-renderer @vueuse/core koa koa-connect koa-send
 ### prettier 失效问题
 由于prettier插件优先使用项目根目录下的editorconfig配置文件，所以在vscode中怎么配置有没有用，如下图
 1. 取消Use Editor Config的复选框，这样就不会优先使用editorconfig配置文件了
-
+2. .prettierrc配置新增
 >参考网站
 >*https://github.com/jeddygong/vite-templates/tree/master/koa2-ssr-vite-vue3-ts-pinia*
