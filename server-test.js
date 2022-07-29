@@ -1,8 +1,8 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import Koa from 'koa';
 
-const Koa = require('koa');
-
+const __dirname = path.resolve();
 (async () => {
     const app = new Koa();
 
